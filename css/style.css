@@ -34,3 +34,28 @@ h1 {
     font-size: 12px;
     margin: 0;
 }
+
+.evidenziato {
+    background: yellow;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /*rimuove i bordini bianchi della tabella */
+    table-layout: fixed; /* tutte le colonne della tabella hanno la stessa larghezza*/
+}
+
+thead {
+    background-color: #20a9e5;
+    color: white;
+    text-align: left;
+}
+
+.riga-tabella-celeste {
+    background-color: #b1e5f2;
+}

@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #4ea0ff;
+    background-image: url(../img/pattern.png);
+    background-size: 35%;
+}
+
+#logo {
+    width: 15%;
+    padding: 50px 0 10px 5px;
+}
+
+main {
+    margin: 10px;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+#autore,#data {
+    margin: 0;
+    color: grey;
+}
+
+#nome-autore {
+    color: #57beeb;
+}
+
+#data {
+    font-size: 12px;
+    padding-bottom: 25px;
+}
+
+#descrizione-foto {
+    font-size: 12px;
+    margin: 0;
+}
+
+.evidenziato {
+    background: yellow;
+}
+
+/* per rimuovere lo spazio sinistro della lista senza togliere i pallini */
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* rimuove i bordini bianchi della tabella */
+    table-layout: fixed; /* tutte le colonne della tabella hanno la stessa larghezza*/
+}
+
+thead {
+    background-color: #20a9e5;
+    color: white;
+    text-align: left;
+}
+
+.riga-tabella-celeste {
+    background-color: #b1e5f2;
+}
+
+#link-interessanti {
+    margin-top: 50px;
+    color: grey;
+    font-weight: 800;
+}
+
+#link-articolo-1, #link-articolo-2{
+    background-repeat: no-repeat;
+    padding: 10px;
+    color: white;
+}
+
+#link-articolo-1 {
+    background-image: url(../img/monitor.jpg);
+    height: 208px;
+}
+
+#link-articolo-2 {
+    background-image: url(../img/graph.jpg);
+    height: 207px;
+}
+
+a {
+    text-decoration: none;
+}

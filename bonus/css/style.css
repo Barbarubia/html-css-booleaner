@@ -8,13 +8,19 @@ header {
     background-size: 35%;
 }
 
+.contenitore-logo {
+    width: 80%;
+    margin: auto;
+}
+
 #logo {
     width: 15%;
     padding: 50px 0 10px 5px;
 }
 
 main {
-    margin: 10px;
+    width: 80%;
+    margin: auto;
 }
 
 h1 {

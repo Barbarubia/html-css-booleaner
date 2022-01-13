@@ -16,6 +16,7 @@ header {
 main {
     margin: 10px;
 }
+
 h1 {
     margin-bottom: 0;
 }
@@ -23,6 +24,10 @@ h1 {
 #autore,#data {
     margin: 0;
     color: grey;
+}
+
+#nome-autore {
+    color: #57beeb;
 }
 
 #data {
@@ -39,6 +44,7 @@ h1 {
     background: yellow;
 }
 
+/* per rimuovere lo spazio sinistro della lista senza togliere i pallini */
 ul {
     list-style-position: inside;
     padding-left: 0;
@@ -46,7 +52,7 @@ ul {
 
 table {
     width: 100%;
-    border-collapse: collapse; /*rimuove i bordini bianchi della tabella */
+    border-collapse: collapse; /* rimuove i bordini bianchi della tabella */
     table-layout: fixed; /* tutte le colonne della tabella hanno la stessa larghezza*/
 }
 
@@ -58,4 +64,30 @@ thead {
 
 .riga-tabella-celeste {
     background-color: #b1e5f2;
+}
+
+#link-interessanti {
+    margin-top: 50px;
+    color: grey;
+    font-weight: 800;
+}
+
+#link-articolo-1, #link-articolo-2{
+    background-repeat: no-repeat;
+    padding: 10px;
+    color: white;
+}
+
+#link-articolo-1 {
+    background-image: url(../img/monitor.jpg);
+    height: 208px;
+}
+
+#link-articolo-2 {
+    background-image: url(../img/graph.jpg);
+    height: 207px;
+}
+
+a {
+    text-decoration: none;
 }
